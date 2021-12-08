@@ -1,0 +1,3 @@
+incident_id,data_year,state_abbr,month_num,crime_against,arrestee_id,arrest_type_id,offense_type_id,age_num,sex_code,weapon_name,race_desc
+37212890,2007.0,AL,1.0,Society,9843792,1,16,39,M,Unarmed,White
+37214948,2007.0,AL,2.0,Property,9843900,3,23,22,M,Lethal Cutting Instrument,Black or African American

@@ -1,0 +1,3 @@
+offense_id,incident_id,offense_type_id,attempt_complete_flag,location_id,num_premises_entered,method_entry_code,ff_line_number
+45344252,37212890,16,C,20,,,
+45354061,37214948,23,C,8,,,

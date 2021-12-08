@@ -1,0 +1,3 @@
+offense_type_id,offense_code,offense_name,crime_against,ct_flag,hc_flag,hc_code,offense_category_name
+16,35A,Drug/Narcotic Violations,Society,N,Y,,Drug/Narcotic Offenses
+23,23C,Shoplifting,Property,N,N,,Larceny/Theft Offenses

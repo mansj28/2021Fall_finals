@@ -1,0 +1,3 @@
+agency_id,incident_id,nibrs_month_id,incident_number,cargo_theft_flag,submission_date,incident_date,report_date_flag,incident_hour,cleared_except_id,cleared_except_date,incident_status,data_home,ddocname,orig_format,ff_line_number,did
+61,37212890,4192006,2.007E+11,,,1/9/2007 0:00,,0,6,,0,C,2007_01_AL0011200_200700001429_INC_NIBRS,,,
+61,37214948,4213250,2.007E+11,,,2/16/2007 0:00,,15,6,,0,C,2007_02_AL0011200_200700008418_INC_NIBRS,,,

@@ -1,0 +1,3 @@
+arrestee_id,incident_id,arrestee_seq_num,arrest_num,arrest_date,arrest_type_id,multiple_indicator,offense_type_id,age_id,age_num,sex_code,race_id,ethnicity_id,resident_code,under_18_disposition_code,clearance_ind,ff_line_number,age_range_low_num,age_range_high_num
+9843792,37212890,1,2.007E+11,1/9/2007 0:00,1,N,16,5,39,M,1,2,N,,,,,
+9843900,37214948,1,2.007E+11,2/16/2007 0:00,3,N,23,5,22,M,2,2,N,,,,,
