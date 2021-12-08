@@ -267,7 +267,7 @@ if __name__ == "__main__":
         df = append_merged_files(df, new_df)
 
     # write the processed file to .csv for analyzing the hypothesis further
-    df.to_csv(r"finaldatasets\\final_crime_dataset.csv", index=False)
+    df.to_csv(r"final_datasets\\dataset_final.csv", index=False)
 
 
 
