@@ -1,8 +1,8 @@
 """
 Project Name: Crime Data Analysis across the years in the states of USA
 Designed By:
-    1. Manasi Joshi
-    2. Shruti Deekshitula
+    1. Manasi Joshi - mbjoshi2
+    2. Shruti Deekshitula - shrutid4
 Description:
     Crime analysis has become an essential tool in law enforcement to enhance public safety, identify emerging trends,
     allocate resources, and plan crime-prevention strategies. Understanding the crime rate and factors that majorly
@@ -12,9 +12,7 @@ Description:
 Pre-requisite Installations:
     1. Install these libraries in your cloned project via PyCharm:
         1. pandas
-Acceptable Input:
-    1. final_crime_data.csv - data for states in the US for years between 2006 - 2019
-    2. state_pop.csv -
+
 Acceptable Output:
     1. Hypothesis 1 - TRUE or FALSE
     2. Hypothesis 2 - TRUE or FALSE
@@ -37,15 +35,33 @@ Crime Data -
     all the data processing a consolidated datafile was generated which is the main "final_crime_data.csv". We have
     used this across our all analysis and hypothesis.
 
+Population Data -
+    Population data over the years for each state has been downloaded from the below site:
+    This population data is used in Hypothesis 1 to analyse the number of crimes over the total population
+    over the years.
+    we have a csv file for each year, we have read each csv and appended all these Dataframes into a
+    main Dataframe and merged state abbreviations Dataframe into state_pop.csv which can be used to run
+    the hypothesis
+    https://www.kff.org/other/state-indicator/distribution-by-age/?dataView=1&currentTimeframe=0&selectedDistributions=total&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D
 
+State Abbreviations -
+    States and their abbreviations name dataset has been downloaded from:
+    This dataset is used to join the population dataset to get the state abbreviation
+    https://worldpopulationreview.com/states/state-abbreviations
+
+Unemployment Data -
+    Unemployment data over the years in US has been webscraped from the below website
+    https://www.bls.gov/charts/employment-situation/civilian-unemployment.htm
 
 Direction to run the program:
-    1. Ensure 'final_crime_data.csv' in the 'final_datasets' folder.
+    1. Ensure all required files are present in the 'final_datasets' folder.
     2. Run each cell in the 'visualizations.ipynb' file to visualize the hypothesis.
 """
 import pandas as pd
 import glob
 import zipfile
+import requests
+from bs4 import BeautifulSoup
 
 
 def get_files(path: str) -> list:
@@ -323,6 +339,16 @@ def get_population_data(input_files: str) -> pd.DataFrame:
     return input_df
 
 
+def get_unemployment_data(input_data: str, code: int) -> str:
+    if code == 200:
+        soup = BeautifulSoup(page.content, 'html.parser')
+        table = soup.find_all('table')[0]
+        df = pd.read_html(str(table))
+        df[0].to_excel(r"final_datasets\\unemployment_data.xlsx", index=False)
+    else:
+        return "Requested Page not found"
+
+
 if __name__ == "__main__":
     path = r"process_datasets\pre_processing_data\*"
     data_files = get_files(path)
@@ -373,3 +399,8 @@ if __name__ == "__main__":
     state_abbr = pd.merge(population_df, input_file_abbr, how='inner', left_on='State', right_on='State')
     state_abbr = state_abbr[['State', 'Total', 'Year', 'Code']]
     state_abbr.to_csv(r"final_datasets\\state_pop.csv")
+
+    # Get Unemployment data
+    page = requests.get("https://www.bls.gov/charts/employment-situation/civilian-unemployment.htm")
+    response_code = page.status_code
+    get_unemployment_data()
