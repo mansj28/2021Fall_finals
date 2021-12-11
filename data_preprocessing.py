@@ -47,6 +47,7 @@ import pandas as pd
 import glob
 import zipfile
 
+
 def get_files(path: str) -> list:
     """
     Returns a list of all the downloaded files for each state.
@@ -75,7 +76,7 @@ def get_unique_folders(path: str) -> list:
     return state_year
 
 
-def create_merged(f_path: str, f_name: str)-> pd.DataFrame:
+def create_merged(f_path: str, f_name: str) -> pd.DataFrame:
     """
     Returns a final dataframe after reading the data for each required csv file of all the csv files present in each
     "state-year" folder to merge the data into one single dataframe. Read the datafiles and process each dataframe with
@@ -101,76 +102,86 @@ def create_merged(f_path: str, f_name: str)-> pd.DataFrame:
     """
     # for all states with years between 2008 - 2016
     if f_name[-4:] not in ['2017', '2018', '2019']:
-        cde_df = pd.read_csv(f_path+f_name+r"\\cde_agencies.csv",
+        cde_df = pd.read_csv(f_path + f_name + r"\\cde_agencies.csv",
                              usecols=['agency_id', 'state_abbr'])
 
-        areestee_df = pd.read_csv(f_path+f_name+r"\\nibrs_arrestee.csv", usecols=['arrestee_id', 'incident_id',
-                      'race_id', 'age_num', 'sex_code', 'offense_type_id', 'arrest_type_id'])
+        areestee_df = pd.read_csv(f_path + f_name + r"\\nibrs_arrestee.csv", usecols=['arrestee_id', 'incident_id',
+                                                                                      'race_id', 'age_num', 'sex_code',
+                                                                                      'offense_type_id',
+                                                                                      'arrest_type_id'])
 
-        aresstee_weapon_df = pd.read_csv(f_path+f_name+r"\\nibrs_arrestee_weapon.csv", usecols=['arrestee_id',
-                             'nibrs_arrestee_weapon_id', 'weapon_id'])
+        aresstee_weapon_df = pd.read_csv(f_path + f_name + r"\\nibrs_arrestee_weapon.csv", usecols=['arrestee_id',
+                                                                                                    'nibrs_arrestee_weapon_id',
+                                                                                                    'weapon_id'])
 
-        incident_df = pd.read_csv(f_path+f_name+r"\\nibrs_incident.csv", usecols=['nibrs_month_id', 'incident_id',
-                      'agency_id'])
+        incident_df = pd.read_csv(f_path + f_name + r"\\nibrs_incident.csv", usecols=['nibrs_month_id', 'incident_id',
+                                                                                      'agency_id'])
 
-        month_df = pd.read_csv(f_path+f_name+r"\\nibrs_month.csv", usecols=['nibrs_month_id', 'agency_id',
-                   'month_num', 'data_year'])
+        month_df = pd.read_csv(f_path + f_name + r"\\nibrs_month.csv", usecols=['nibrs_month_id', 'agency_id',
+                                                                                'month_num', 'data_year'])
 
-        offense_df = pd.read_csv(f_path+f_name+r"\\nibrs_offense.csv", usecols=['offense_id', 'incident_id',
-                     'offense_type_id'])
+        offense_df = pd.read_csv(f_path + f_name + r"\\nibrs_offense.csv", usecols=['offense_id', 'incident_id',
+                                                                                    'offense_type_id'])
 
-        offense_type_df = pd.read_csv(f_path+f_name+r"\\nibrs_offense_type.csv", usecols=['offense_type_id',
-                          'crime_against'])
+        offense_type_df = pd.read_csv(f_path + f_name + r"\\nibrs_offense_type.csv", usecols=['offense_type_id',
+                                                                                              'crime_against'])
 
-        weapon_type_df = pd.read_csv(f_path+f_name+r"\\nibrs_weapon_type.csv", usecols=['weapon_id', 'weapon_name'])
+        weapon_type_df = pd.read_csv(f_path + f_name + r"\\nibrs_weapon_type.csv", usecols=['weapon_id', 'weapon_name'])
 
-        ref_race_df = pd.read_csv(f_path+f_name+r"\\ref_race.csv", usecols=['race_id', 'race_desc'])
+        ref_race_df = pd.read_csv(f_path + f_name + r"\\ref_race.csv", usecols=['race_id', 'race_desc'])
 
     # for all states with years between 2017 - 2019
     elif folder[-4:] in ['2017', '2018', '2019']:
-        cde_df = pd.read_csv(f_path+f_name+r"\\agencies.csv", usecols=['AGENCY_ID', 'STATE_ABBR'])
+        cde_df = pd.read_csv(f_path + f_name + r"\\agencies.csv", usecols=['AGENCY_ID', 'STATE_ABBR'])
         cde_df.columns = cde_df.columns.str.strip().str.lower()
 
-        areestee_df = pd.read_csv(f_path+f_name+r"\\nibrs_arrestee.csv", usecols=['arrestee_id'.upper(), 'incident_id'.upper(),
-                      'race_id'.upper(), 'age_num'.upper(), 'sex_code'.upper(), 'offense_type_id'.upper(), 'arrest_type_id'.upper()])
+        areestee_df = pd.read_csv(f_path + f_name + r"\\nibrs_arrestee.csv",
+                                  usecols=['arrestee_id'.upper(), 'incident_id'.upper(),
+                                           'race_id'.upper(), 'age_num'.upper(), 'sex_code'.upper(),
+                                           'offense_type_id'.upper(), 'arrest_type_id'.upper()])
         areestee_df.columns = areestee_df.columns.str.strip().str.lower()
 
-        aresstee_weapon_df = pd.read_csv(f_path+f_name+r"\\nibrs_arrestee_weapon.csv", usecols=['arrestee_id'.upper(),
-                             'nibrs_arrestee_weapon_id'.upper(), 'weapon_id'.upper()])
+        aresstee_weapon_df = pd.read_csv(f_path + f_name + r"\\nibrs_arrestee_weapon.csv",
+                                         usecols=['arrestee_id'.upper(),
+                                                  'nibrs_arrestee_weapon_id'.upper(), 'weapon_id'.upper()])
         aresstee_weapon_df.columns = aresstee_weapon_df.columns.str.strip().str.lower()
 
-        incident_df = pd.read_csv(f_path+f_name+r"\\nibrs_incident.csv", usecols=['nibrs_month_id'.upper(),
-                      'incident_id'.upper(), 'agency_id'.upper()])
+        incident_df = pd.read_csv(f_path + f_name + r"\\nibrs_incident.csv", usecols=['nibrs_month_id'.upper(),
+                                                                                      'incident_id'.upper(),
+                                                                                      'agency_id'.upper()])
         incident_df.columns = incident_df.columns.str.strip().str.lower()
 
-        month_df = pd.read_csv(f_path+f_name+r"\\nibrs_month.csv", usecols=['nibrs_month_id'.upper(),
-                   'agency_id'.upper(), 'month_num'.upper(), 'data_year'.upper()])
+        month_df = pd.read_csv(f_path + f_name + r"\\nibrs_month.csv", usecols=['nibrs_month_id'.upper(),
+                                                                                'agency_id'.upper(),
+                                                                                'month_num'.upper(),
+                                                                                'data_year'.upper()])
         month_df.columns = month_df.columns.str.strip().str.lower()
 
-        offense_df = pd.read_csv(f_path+f_name+r"\\nibrs_offense.csv", usecols=['offense_id'.upper(),
-                     'incident_id'.upper(), 'offense_type_id'.upper()])
+        offense_df = pd.read_csv(f_path + f_name + r"\\nibrs_offense.csv", usecols=['offense_id'.upper(),
+                                                                                    'incident_id'.upper(),
+                                                                                    'offense_type_id'.upper()])
         offense_df.columns = offense_df.columns.str.strip().str.lower()
 
-        offense_type_df = pd.read_csv(f_path+f_name+r"\\nibrs_offense_type.csv", usecols=['offense_type_id'.upper(),
-                          'crime_against'.upper()])
+        offense_type_df = pd.read_csv(f_path + f_name + r"\\nibrs_offense_type.csv", usecols=['offense_type_id'.upper(),
+                                                                                              'crime_against'.upper()])
         offense_type_df.columns = offense_type_df.columns.str.strip().str.lower()
 
-        weapon_type_df = pd.read_csv(f_path+f_name+r"\\nibrs_weapon_type.csv", usecols=['weapon_id'.upper(),
-                         'weapon_name'.upper()])
+        weapon_type_df = pd.read_csv(f_path + f_name + r"\\nibrs_weapon_type.csv", usecols=['weapon_id'.upper(),
+                                                                                            'weapon_name'.upper()])
         weapon_type_df.columns = weapon_type_df.columns.str.strip().str.lower()
 
-        ref_race_df = pd.read_csv(f_path+f_name+r"\\ref_race.csv", usecols=['race_id'.upper(), 'race_desc'.upper()])
+        ref_race_df = pd.read_csv(f_path + f_name + r"\\ref_race.csv", usecols=['race_id'.upper(), 'race_desc'.upper()])
         ref_race_df.columns = ref_race_df.columns.str.strip().str.lower()
 
     # merge each dataframe for having a final dataframe with required columns for further analysis
     df = pd.merge(incident_df, month_df, left_on='nibrs_month_id', right_on='nibrs_month_id')
     df.drop(['agency_id_x', 'nibrs_month_id'], axis=1, inplace=True)
-    df.rename(columns={'agency_id_y' : 'agency_id'}, inplace=True)
+    df.rename(columns={'agency_id_y': 'agency_id'}, inplace=True)
 
     df = pd.merge(df, cde_df, left_on='agency_id', right_on='agency_id')
     df.drop(['agency_id'], axis=1, inplace=True)
 
-    df = pd.merge(df, offense_df,left_on='incident_id', right_on='incident_id', how='outer')
+    df = pd.merge(df, offense_df, left_on='incident_id', right_on='incident_id', how='outer')
     df = pd.merge(df, offense_type_df, left_on='offense_type_id', right_on='offense_type_id')
     df.drop(['offense_id', 'offense_type_id'], axis=1, inplace=True)
 
@@ -239,8 +250,80 @@ def append_merged_files(f_data: pd.DataFrame, to_merge: pd.DataFrame) -> pd.Data
     return f_data
 
 
-if __name__ == "__main__":
+def get_population_data(input_files: str) -> pd.DataFrame:
+    """
+    This method is created to merge population data for each state across years
+    :param input_files: Current input file being processed
+    :type input_files: String
+    :return: Output data frame
+    :rtype: dataframe
+    >>> get_population_data("process_datasets/Population/2008.csv") # doctest: +NORMALIZE_WHITESPACE
+                           State      Total  Year
+    0          United States  295269800  2008
+    1                Alabama    4526900  2008
+    2                 Alaska     654700  2008
+    3                Arizona    6363000  2008
+    4               Arkansas    2769700  2008
+    5             California   35882000  2008
+    6               Colorado    4816700  2008
+    7            Connecticut    3383800  2008
+    8               Delaware     844200  2008
+    9   District of Columbia     558900  2008
+    10               Florida   17874300  2008
+    11               Georgia    9376400  2008
+    12                Hawaii    1229000  2008
+    13                 Idaho    1484300  2008
+    14              Illinois   12556000  2008
+    15               Indiana    6172900  2008
+    16                  Iowa    2894000  2008
+    17                Kansas    2701400  2008
+    18              Kentucky    4143600  2008
+    19             Louisiana    4273800  2008
+    20                 Maine    1274100  2008
+    21              Maryland    5470000  2008
+    22         Massachusetts    6265100  2008
+    23              Michigan    9764400  2008
+    24             Minnesota    5084500  2008
+    25           Mississippi    2826800  2008
+    26              Missouri    5728200  2008
+    27               Montana     938500  2008
+    28              Nebraska    1721000  2008
+    29                Nevada    2556800  2008
+    30         New Hampshire    1275300  2008
+    31            New Jersey    8494600  2008
+    32            New Mexico    1934000  2008
+    33              New York   18944000  2008
+    34        North Carolina    8886300  2008
+    35          North Dakota     610300  2008
+    36                  Ohio   11157500  2008
+    37              Oklahoma    3508800  2008
+    38                Oregon    3711900  2008
+    39          Pennsylvania   12002700  2008
+    40          Rhode Island    1009400  2008
+    41        South Carolina    4318400  2008
+    42          South Dakota     769900  2008
+    43             Tennessee    6045200  2008
+    44                 Texas   23643000  2008
+    45                  Utah    2686800  2008
+    46               Vermont     599100  2008
+    47              Virginia    7418400  2008
+    48            Washington    6370500  2008
+    49         West Virginia    1765200  2008
+    50             Wisconsin    5467500  2008
+    51               Wyoming     516100  2008
+    52           Puerto Rico    3902000  2008
 
+    """
+
+    raw_string = r'{}'.format(input_files)
+    input_df = pd.read_csv(raw_string, skiprows=2, skipfooter=13, engine='python')
+    input_df = input_df.rename(columns={'Location': 'State'})
+    input_df = input_df[['State', 'Total']]
+    input_df['Year'] = raw_string[-8:-4]
+    return input_df
+
+
+if __name__ == "__main__":
     path = r"process_datasets\pre_processing_data\*"
     data_files = get_files(path)
 
@@ -269,5 +352,24 @@ if __name__ == "__main__":
     # write the processed file to .csv for analyzing the hypothesis further
     df.to_csv(r"final_datasets\\dataset_final.csv", index=False)
 
+    # Merge State population for years( 2008 - 2019) downloaded from
+    # https://www.kff.org/other/state-indicator/distribution-by-age/?dataView=1&currentTimeframe=0&selectedDistributions=total&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D
+    path = r"process_datasets\Population\*.csv"
+    files = glob.glob(path, recursive=True)
+    print(files)
 
+    population_df = pd.DataFrame()
 
+    for input_file in files:
+        pop_df = get_population_data(input_file)
+        # population_df = population_df.append(pop_df)
+        population_df = append_merged_files(population_df, pop_df)
+        del pop_df
+
+    population_df = population_df.sort_values(by=['State', 'Year'])
+
+    # Read state abbreviations and merge it with population data
+    input_file_abbr = pd.read_csv(r"process_datasets\\State_abbr.csv")
+    state_abbr = pd.merge(population_df, input_file_abbr, how='inner', left_on='State', right_on='State')
+    state_abbr = state_abbr[['State', 'Total', 'Year', 'Code']]
+    state_abbr.to_csv(r"final_datasets\\state_pop.csv")
