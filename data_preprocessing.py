@@ -60,8 +60,9 @@ Direction to run the program:
 import pandas as pd
 import glob
 import zipfile
-import requests
-from bs4 import BeautifulSoup
+# import requests
+import numpy as np
+# from bs4 import BeautifulSoup
 
 
 def get_files(path: str) -> list:
@@ -100,21 +101,12 @@ def create_merged(f_path: str, f_name: str) -> pd.DataFrame:
     :param f_path: String of the folder path which contains all the "state-year" folders
     :param f_name: String of the folder name to read required datafiles
     :return: Merged dataframe with fields from each datafile of the provided "state-year" folder
-    >>> create_merged("test\\preprocess_test_data_unzipped","\\AL-2006") # doctest: +NORMALIZE_WHITESPACE +ELLIPSIS
-          incident_id  ...                                          race_desc
-    0        36591519  ...                                              White
-    1        36595364  ...                                              White
-    2        36595364  ...                                              White
-    3        36595364  ...                                              White
-    4        36595364  ...                                              White
-    ...           ...  ...                                                ...
-    1617     36610094  ...  Asian, Native Hawaiian, or Other Pacific Islander
-    1618     36598341  ...  Asian, Native Hawaiian, or Other Pacific Islander
-    1619     36607118  ...  Asian, Native Hawaiian, or Other Pacific Islander
-    1620     36612864  ...  Asian, Native Hawaiian, or Other Pacific Islander
-    1621     36606048  ...                   American Indian or Alaska Native
+    >>> create_merged("test\\preprocess_test_data_unzipped","\\AL-2007") # doctest: +NORMALIZE_WHITESPACE +ELLIPSIS
+       incident_id  data_year  ...                weapon_name                  race_desc
+    0     37212890     2007.0  ...                    Unarmed                      White
+    1     37214948     2007.0  ...  Lethal Cutting Instrument  Black or African American
     <BLANKLINE>
-    [1622 rows x 12 columns]
+    [2 rows x 12 columns]
     """
     # for all states with years between 2008 - 2016
     if f_name[-4:] not in ['2017', '2018', '2019']:
@@ -347,6 +339,54 @@ def get_unemployment_data(input_data: str, code: int) -> str:
         df[0].to_excel(r"final_datasets\\unemployment_data.xlsx", index=False)
     else:
         return "Requested Page not found"
+
+
+def get_rank(df: pd.DataFrame, col: str) -> None:
+    """
+    Creates a rank column by ranking the values in ascending order for each column passed in as a parameter
+    :param df: Dataframe for which rank columns needs to be generated
+    :param col: columns for which rank function is to be used
+    :return: None
+    """
+    df[col+"_rank"] = df[col].rank()
+    return None
+
+
+def get_crime_score(inp_df: pd.DataFrame, year: int) -> pd.DataFrame:
+    """
+    Returns the dataframe with the total crime score of each state for the user input year.
+    :param inp_df: input dataframe
+    :param year: user input year to filter on the dataframe
+    :return: dataframe with column ranks and total crime score
+    >>> test_df = pd.read_csv("test/test_df.csv")
+    >>> res_df = get_crime_score(test_df, 2008)
+    >>> res_df
+             State Code  Year  ...  total_crimes_rank  Total  crime_score
+    0      Alabama   AL  2008  ...                1.0    7.0         1.17
+    2     Arkansas   AR  2008  ...                4.0   25.0         4.17
+    4      Arizona   AZ  2008  ...                2.0   12.0         2.00
+    6     Colorado   CO  2008  ...                5.0   29.0         4.83
+    8  Connecticut   CT  2008  ...                3.0   17.0         2.83
+    <BLANKLINE>
+    [5 rows x 20 columns]
+
+    """
+    df = inp_df[inp_df['Year'] == year].copy()
+    columns = df.columns
+    for col in columns[4:]:
+        get_rank(df, col)
+
+    rank_cols = df.columns[-6:]
+    df['Total'] = np.zeros(len(df))
+
+    for rank_col in rank_cols:
+        df["Total"] += df[rank_col]
+
+    df['crime_score'] = round(df['Total'] / len(rank_cols), 2)
+
+    # print("Data of the below states available for the year " + str(year))
+    # print(df['State'].unique().tolist())
+    return df
 
 
 if __name__ == "__main__":
