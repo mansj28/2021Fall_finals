@@ -12,13 +12,23 @@ Crime analysis has become an essential tool in law enforcement to enhance public
     2. Shruti Deekshitula
 
 
-Hypothesis 1:
-
-
+## Hypothesis 1:
 Reference from :
 Crime rates by state size : Based on our data taken from https://crime-data-explorer.fr.cloud.gov/pages/downloads
 Highly populated states tend to have higher crime rates throughout the state
-From this reference article - https://sgp.fas.org/crs/misc/R45236.pdf we are extending on the hypothesis that rate of education has no impact on crime rates.
+From this reference article - https://sgp.fas.org/crs/misc/R45236.pdf we are extending on the hypothesis that number of crimes are influenced by unemployment.
+
+H0: Number of crimes are higher in states having higher population and unemployment has an impact on number of crimes.
+H1: Number of crimes are not higher in states with higher population, and unemployement has no impact on number of crimes.
+
+![image](https://user-images.githubusercontent.com/87671309/145706798-ff115a0c-4317-4231-8d7b-09f53fea25cb.png)
+For the above image, we have taken reference and mapped crimes against state population over the years, there is no concrete evidence that states with higher population have higher crimes, as we can see in states below 29 million that crimes increased in 2013 and then started decreasing again from 2016, hence rejecting our null hypothesis.
+
+To further analyse factors effecting crimes, we have tried to analyse the impact of unemployement on crimes.
+To summarize we observed that even if unemployment is on the decreasing trent, the crimes still see an upward trent as seen from years 2014 - 2019, thus rejecting our null hypothesis completely.
+
+![image](https://user-images.githubusercontent.com/87671309/145706807-efe2a1c8-fd10-4eb9-a9ec-0b7020d4c000.png)
+ 
 
 ## Hypothesis 2:
 Having the different political party at state and national level influences the number of crimes
