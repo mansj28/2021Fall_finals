@@ -22,6 +22,7 @@ Highly populated states tend to have higher crime rates throughout the state
 From this reference article - https://sgp.fas.org/crs/misc/R45236.pdf we are extending on the hypothesis that number of crimes are influenced by unemployment.
 
 H0: Number of crimes are higher in states having higher population and unemployment has an impact on number of crimes.
+
 H1: Number of crimes are not higher in states with higher population, and unemployement has no impact on number of crimes.
 
 ![image](https://user-images.githubusercontent.com/87671309/145706798-ff115a0c-4317-4231-8d7b-09f53fea25cb.png)
@@ -37,6 +38,7 @@ To summarize we observed that even if unemployment is on the decreasing trent, t
 Having the different political party at state and national level influences the number of crimes
 
 H0: Number of crimes is higher in states having different ruling party at the state and center level as compared to if the states have same ruling party
+
 H1: Number of crimes is higher in states having same ruling party at the state and center level
 
 We first classified the states based on the political party in each state. We then totaled the number of crimes across the years until the next election. 
@@ -61,6 +63,7 @@ We also mapped the crimes against each race in order to acquire a better underst
 ## Hypothesis 3: Holiday season affects the number of crimes
 
 H0: There is increase in number of crimes during holiday season (Positive lean)
+
 H1: The number of crimes do not increase during holiday season
 
 ### Below are the plots for total number of crimes in the years 2008, 2012, 2016, 2019 across the months (holiday - 11, 12 and non-holiday)
