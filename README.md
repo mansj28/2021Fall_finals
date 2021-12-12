@@ -27,7 +27,7 @@ For the above image, we have taken reference and mapped crimes against state pop
 To further analyse factors effecting crimes, we have tried to analyse the impact of unemployement on crimes.
 To summarize we observed that even if unemployment is on the decreasing trent, the crimes still see an upward trent as seen from years 2014 - 2019, thus rejecting our null hypothesis completely.
 
-![image](https://user-images.githubusercontent.com/87671309/145708814-df1e8ae3-8a39-41ec-af56-bcbd37977a60.png)
+![image](https://user-images.githubusercontent.com/87671309/145709700-f6ecaa9d-a1c2-48a9-a1d0-3795bb251bf1.png)
  
 
 ## Hypothesis 2:
