@@ -45,7 +45,7 @@ Looking at the above graphs, we can see that states with the same ruling party (
 We also mapped the crimes against each race in order to acquire a better understanding. The scatter plot overlaying the bar graph in the above graphs depicts total crimes against each racial category: American Indian Or Alaska Native, Asian, Black Or African American, and White. Regardless of the central elected party (democratic/republican), the number of crimes in the White category is significantly higher than in the other categories in majority of the states.
 
 
-Hypothesis 3: Holiday season affects the number of crimes
+## Hypothesis 3: Holiday season affects the number of crimes
 
 H0: There is increase in number of crimes during holiday season (Positive lean)
 H1: The number of crimes do not increase during holiday season
