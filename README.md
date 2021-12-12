@@ -2,6 +2,9 @@
 
 # Analysis - Crime Data Analysis in the states of USA over the years
 
+![download](https://user-images.githubusercontent.com/70129583/145709739-832b2040-8778-45d4-85b7-3d531923357c.jpg)
+
+
 ## The idea behind the project
 
 Crime analysis has become an essential tool in law enforcement to enhance public safety, identify emerging trends, allocate resources, and plan crime-prevention strategies. Understanding the crime rate and factors that majorly influence crimes has become an important aspect to curb the crimes, therefore we will be focusing on the below-mentioned analysis and hypotheses to identify the significant factors that, in our view, are reasons for crimes across the US and factors that lead to changes in crimes rates every year.
