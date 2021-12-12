@@ -60,9 +60,9 @@ Direction to run the program:
 import pandas as pd
 import glob
 import zipfile
-# import requests
+import requests
 import numpy as np
-# from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 
 
 def get_files(path: str) -> list:
