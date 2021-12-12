@@ -1,0 +1,440 @@
+year,state_name,state_abbr,agency_id,agency_ori,agency_name,agency_population,population_group_code,population_group,reported,months_reported,nibrs_reported,nibrs_months_reported,covered,participated,nibrs_participated
+2006,Alabama,AL,213,AL0230800,22nd Judicial Circuit Drug Task Force,0,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,408,AL0540700,24th Judicial Circuit Drug and Violent Crime Task Force,0,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,347,AL0450700,2nd Judicial Circuit Drug Task Force,0,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,292,AL0370100,Abbeville,2990,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,71,AL0012200,Adamsville,4889,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,492,AL0670300,Addison,719,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,97,AL0030400,Alabama Alcoholic Beverage Control Board,0,9D,"MSA counties under 10,000",1,12,0,0,0,1,0
+2006,Alabama,AL,360,AL0470800,Alabama A&M University,0,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,96,AL0030300,Alabama Conservation Department Marine Police,0,9E,MSA State Police,0,0,0,0,0,0,0
+2006,Alabama,AL,98,AL0030500,Alabama Department of Mental Health,0,9D,"MSA counties under 10,000",0,0,0,0,0,0,0
+2006,Alabama,AL,495,ALAST0000,Alabama Highway Patrol,0,8D,"Non-MSA counties under 10,000",0,0,0,0,0,0,0
+2006,Alabama,AL,101,AL0030800,Alabama Public Service Commission Enforcement Division,0,9D,"MSA counties under 10,000",0,0,0,0,0,0,0
+2006,Alabama,AL,99,AL0030600,Alabama State University,0,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,436,AL0590400,Alabaster,27766,4,"Cities from 25,000 thru 49,999",1,12,0,0,0,1,0
+2006,Alabama,AL,378,AL0500100,Albertville,18783,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,458,AL0620100,Alexander City,15092,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,403,AL0540100,Aliceville,2487,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,269,AL0310900,Altoona,979,7,"Cities under 2,500",0,0,0,0,1,0,0
+2006,Alabama,AL,206,AL0230100,Andalusia,8770,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,323,AL0410300,Anderson,351,7,"Cities under 2,500",0,0,0,0,1,0,0
+2006,Alabama,AL,147,AL0110100,Anniston,23956,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,380,AL0500300,Arab,7566,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,341,AL0440200,Ardmore,1116,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,431,AL0581200,Argo,1909,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,232,AL0260800,Ariton,762,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,493,AL0670400,Arley,324,7,"Cities under 2,500",0,0,0,0,1,0,0
+2006,Alabama,AL,297,AL0380200,Ashford,1949,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,181,AL0170100,Ashland,1902,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,422,AL0580200,Ashville,2451,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,340,AL0440100,Athens,21162,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,257,AL0300100,Atmore,7598,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,262,AL0310100,Attalla,6533,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,336,AL0430100,Auburn,50380,3,"Cities from 50,000 thru 99,000",1,12,0,0,0,1,0
+2006,Alabama,AL,338,AL0430300,Auburn University: Main Campus,0,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,100,AL0030700,Auburn University: Montgomery,0,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,106,AL0040000,Autauga,19128,9C,"MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,108,AL0040200,Autaugaville,873,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,128,AL0060700,Baker Hill,324,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,109,AL0050000,Baldwin,84114,8B,"Non-MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,104,AL0032200,Baptist Medical Center,0,7,"Cities under 2,500",0,0,0,0,1,0,0
+2006,Alabama,AL,123,AL0060000,Barbour,10526,8C,"Non-MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,110,AL0050100,Bay Minette,7879,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,87,AL0020600,Bayou La Batre,2750,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,376,AL0490700,Bear Creek,1030,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,388,AL0510300,Beatrice,407,7,"Cities under 2,500",0,0,0,0,1,0,0
+2006,Alabama,AL,272,AL0320200,Berry,1237,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,50,AL0010100,Bessemer,28900,4,"Cities from 25,000 thru 49,999",1,12,0,0,0,1,0
+2006,Alabama,AL,129,AL0070000,Bibb,12514,9C,"MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,51,AL0010200,Birmingham,233577,2,"Cities from 100,000 thru 249,000",1,12,0,0,0,1,0
+2006,Alabama,AL,134,AL0080000,Blount,45021,9B,"MSA counties from 25,000 thru 99,999",0,0,0,0,0,0,0
+2006,Alabama,AL,136,AL0080200,Blountsville,1940,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,381,AL0500400,Boaz,7964,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,216,AL0240200,Brantley,917,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,131,AL0070200,Brent,4166,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,258,AL0300200,Brewton,5422,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,307,AL0390200,Bridgeport,2717,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,67,AL0011800,Brighton,3447,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,374,AL0490500,Brilliant,740,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,76,AL0012700,Brookside,1367,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,66,AL0011700,Brownsville,0,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,411,AL0550200,Brundidge,2348,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,469,AL0630500,Bryce State Hospital,0,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,140,AL0090000,Bullock,7681,8D,"Non-MSA counties under 10,000",0,0,0,0,0,0,0
+2006,Alabama,AL,169,AL0150100,Butler,1796,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,142,AL0100000,Butler,11508,8C,"Non-MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,433,AL0590100,Calera,6768,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,146,AL0110000,Calhoun,52899,9B,"MSA counties from 25,000 thru 99,999",0,0,0,0,0,0,0
+2006,Alabama,AL,398,AL052119E,Calhoun Community College,0,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,487,AL0660100,Camden,2248,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,460,AL0620300,Camp Hill,1210,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,474,AL0640200,Carbon Hill,2066,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,77,AL0012800,Cardiff,81,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,406,AL0540400,Carrollton,965,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,461,AL0620400,Carrville,0,7,"Cities under 2,500",0,0,0,0,1,0,0
+2006,Alabama,AL,201,AL0210200,Castleberry,565,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,161,AL0130200,Cedar Bluff,1551,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,160,AL0130100,Centre,3346,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,130,AL0070100,Centreville,2530,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,155,AL0120000,Chambers,15911,8C,"Non-MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,485,AL0650300,Chatom,1189,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,159,AL0130000,Cherokee,19839,8C,"Non-MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,196,AL0200400,Cherokee,1194,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,84,AL0020300,Chickasaw,6054,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,453,AL0610300,Childersburg,5045,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,163,AL0140000,Chilton,28322,9B,"MSA counties from 25,000 thru 99,999",0,0,0,0,0,0,0
+2006,Alabama,AL,168,AL0150000,Choctaw,12311,8C,"Non-MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,85,AL0020400,Citronelle,3719,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,103,AL0031900,City of Montgomery Housing Authority Investigative Unit,0,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,164,AL0140100,Clanton,8411,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,174,AL0160000,Clarke,15837,8C,"Non-MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,180,AL0170000,Clay,9777,8D,"Non-MSA counties under 10,000",0,0,0,0,0,0,0
+2006,Alabama,AL,233,AL0260900,Clayhatchee,503,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,125,AL0060200,Clayton,1415,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,183,AL0180000,Cleburne,10778,8C,"Non-MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,137,AL0080300,Cleveland,1375,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,126,AL0060300,Clio,2236,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,186,AL0190000,Coffee,17010,8C,"Non-MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,284,AL0340500,Coffee Springs,254,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,179,AL0160600,Coffeeville,357,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,192,AL0200000,Colbert,21970,9C,"MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,238,AL0280200,Collinsville,1682,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,299,AL0380400,Columbia,830,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,434,AL0590200,Columbiana,3697,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,199,AL0210000,Conecuh,9337,8D,"Non-MSA counties under 10,000",0,0,0,0,0,0,0
+2006,Alabama,AL,202,AL0220000,Coosa,9346,8D,"Non-MSA counties under 10,000",1,12,0,0,0,1,0
+2006,Alabama,AL,254,AL0290400,Coosada,1497,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,475,AL0640300,Cordova,2357,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,300,AL0380500,Cottonwood,1182,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,79,AL0013000,County Line,264,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,332,AL0420300,Courtland,772,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,205,AL0230000,Covington,18597,8C,"Non-MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,214,AL0240000,Crenshaw,9650,8D,"Non-MSA counties under 10,000",1,12,0,0,0,1,0
+2006,Alabama,AL,91,AL0021200,Creola,2077,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,245,AL0281000,Crossville,1462,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,447,AL0600300,Cuba,337,7,"Cities under 2,500",0,0,0,0,1,0,0
+2006,Alabama,AL,220,AL0250100,Cullman,14868,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,219,AL0250000,Cullman,62569,8B,"Non-MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,459,AL0620200,Dadeville,3173,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,224,AL0260000,Dale,21183,8C,"Non-MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,226,AL0260200,Daleville,4586,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,234,AL0270000,Dallas,25191,8B,"Non-MSA counties from 25,000 thru 99,999",0,0,0,0,0,0,0
+2006,Alabama,AL,117,AL0050800,Daphne,18749,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,93,AL0021500,Dauphin Island,1547,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,462,AL0620500,Daviston,262,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,391,AL0520100,Decatur,55406,3,"Cities from 50,000 thru 99,000",1,12,0,0,0,1,0
+2006,Alabama,AL,236,AL0280000,DeKalb,38779,8B,"Non-MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,364,AL0480100,Demopolis,7623,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,476,AL0640400,Dora,2413,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,296,AL0380100,Dothan,63280,3,"Cities from 50,000 thru 99,000",1,12,0,0,0,1,0
+2006,Alabama,AL,490,AL0670100,Double Springs,992,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,217,AL0240300,Dozier,397,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,311,AL0390600,Dutton,311,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,259,AL0300300,East Brewton,2446,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,253,AL0290300,Eclectic,1122,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,187,AL0190100,Elba,4219,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,119,AL0051000,Elberta,588,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,342,AL0440300,Elkmont,497,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,250,AL0290000,Elmore,45360,9B,"MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,188,AL0190200,Enterprise,23099,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,191,AL0190500,Enterprise State Junior College,0,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,448,AL0600400,Epes,195,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,256,AL0300000,Escambia,21386,8C,"Non-MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,261,AL0310000,Etowah,30804,9B,"MSA counties from 25,000 thru 99,999",0,0,0,0,0,0,0
+2006,Alabama,AL,124,AL0060100,Eufaula,13585,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,286,AL0350100,Eutaw,1816,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,200,AL0210100,Evergreen,3473,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,389,AL0510400,Excel,606,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,53,AL0010400,Fairfield,11802,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,111,AL0050200,Fairhope,15530,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,393,AL0520400,Falkville,1188,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,105,AL003FA00,Faulkner University,0,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,367,AL0480400,Faunsdale,86,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,270,AL0320000,Fayette,11506,8C,"Non-MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,271,AL0320100,Fayette,4804,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,394,AL0520500,Flint City,0,7,"Cities under 2,500",0,0,0,0,1,0,0
+2006,Alabama,AL,260,AL0300400,Flomaton,1574,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,208,AL0230300,Florala,1910,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,321,AL0410100,Florence,36810,4,"Cities from 25,000 thru 49,999",0,0,0,0,0,0,0
+2006,Alabama,AL,112,AL0050300,Foley,11522,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,344,AL0450100,Fort Deposit,1240,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,237,AL0280100,Fort Payne,13696,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,273,AL0330000,Franklin,17511,8C,"Non-MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,387,AL0510200,Frisco City,1410,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,178,AL0160400,Fulton,304,7,"Cities under 2,500",0,0,0,0,1,0,0
+2006,Alabama,AL,60,AL0011100,Fultondale,6915,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,246,AL0281100,Fyffe,1029,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,263,AL0310200,Gadsden,37743,4,"Cities from 25,000 thru 49,999",1,12,0,0,0,1,0
+2006,Alabama,AL,209,AL0230400,Gantt,241,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,222,AL0250300,Garden City,592,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,54,AL0010500,Gardendale,12946,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,280,AL0340100,Geneva,4419,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,279,AL0340000,Geneva,15051,9C,"MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,144,AL0100200,Georgiana,1651,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,239,AL0280300,Geraldine,823,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,170,AL0150200,Gilbertown,177,7,"Cities under 2,500",0,0,0,0,1,0,0
+2006,Alabama,AL,264,AL0310400,Glencoe,5313,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,218,AL0240400,Glenwood,195,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,223,AL0250400,Good Hope,2047,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,203,AL0220100,Goodwater,1508,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,404,AL0540200,Gordo,1610,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,298,AL0380300,Gordon,420,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,382,AL0500500,Grant,683,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,65,AL0011600,Graysville,2474,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,285,AL0350000,Greene,7932,9D,"MSA counties under 10,000",0,0,0,0,0,0,0
+2006,Alabama,AL,289,AL0360100,Greensboro,2640,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,143,AL0100100,Greenville,7168,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,177,AL0160300,Grove Hill,1396,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,372,AL0490300,Guin,2266,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,113,AL0050400,Gulf Shores,7329,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,379,AL0500200,Guntersville,7791,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,355,AL0470300,Gurley,862,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,373,AL0490400,Hackleburg,1488,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,288,AL0360000,Hale,13968,9C,"MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,491,AL0670200,Haleyville,4197,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,370,AL0490100,Hamilton,6555,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,244,AL0280800,Hammondville,534,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,221,AL0250200,Hanceville,3155,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,441,AL0590900,Harpersville,1645,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,282,AL0340300,Hartford,2393,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,392,AL0520200,Hartselle,13198,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,345,AL0450200,Hayneville,1151,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,293,AL0370200,Headland,3748,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,184,AL0180100,Heflin,3338,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,439,AL0590700,Helena,13357,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,240,AL0280400,Henagar,2530,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,291,AL0370000,Henry,9470,9D,"MSA counties under 10,000",1,12,0,0,0,1,0
+2006,Alabama,AL,139,AL0080500,Highland Lake,473,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,333,AL0420400,Hillsboro,596,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,152,AL0110600,Hobson City,868,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,278,AL0330500,Hodges,260,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,266,AL0310600,Hokes Bluff,4356,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,309,AL0390400,Hollywood,937,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,59,AL0011000,Homewood,24180,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,61,AL0011200,Hoover,68079,3,"Cities from 50,000 thru 99,000",1,12,1,12,0,1,1
+2006,Alabama,AL,295,AL0380000,Houston,24866,9C,"MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,68,AL0011900,Hueytown,15329,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,353,AL0470100,Huntsville,167817,2,"Cities from 100,000 thru 249,000",1,12,0,0,0,1,0
+2006,Alabama,AL,361,AL0470900,Huntsville International Airport,0,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,419,AL0570200,Hurtsboro,563,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,249,AL0281400,Ider,694,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,62,AL0011300,Irondale,9617,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,175,AL0160100,Jackson,5333,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,305,AL0390000,Jackson,30263,8B,"Non-MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,148,AL0110200,Jacksonville,8942,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,154,AL0110800,Jacksonville State University,0,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,473,AL0640100,Jasper,14215,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,49,AL0010000,Jefferson,148037,9A,"MSA counties 100,000 or over",1,12,0,0,0,1,0
+2006,Alabama,AL,166,AL0140300,Jemison,2509,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,318,AL0400300,Kennedy,516,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,327,AL0410700,Killen,1134,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,78,AL0012900,Kimberly,2342,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,301,AL0380600,Kinsey,1922,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,190,AL0190400,Kinston,618,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,156,AL0120100,Lafayette,3130,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,471,AL0631100,Lake View,1662,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,315,AL0400000,Lamar,9972,8D,"Non-MSA counties under 10,000",1,12,0,0,0,1,0
+2006,Alabama,AL,157,AL0120200,Lanett,7659,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,320,AL0410000,Lauderdale,48067,9B,"MSA counties from 25,000 thru 99,999",0,0,0,0,0,0,0
+2006,Alabama,AL,329,AL0420000,Lawrence,28219,9B,"MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,335,AL0430000,Lee,47645,9B,"MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,55,AL0010600,Leeds,11153,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,197,AL0200500,Leighton,843,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,227,AL0260300,Level Plains,1543,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,325,AL0410500,Lexington,838,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,339,AL0440000,Limestone,47822,9B,"MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,454,AL0610400,Lincoln,4966,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,365,AL0480200,Linden,2357,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,182,AL0170200,Lineville,2411,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,69,AL0012000,Lipscomb,2339,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,198,AL0200600,Littleville,956,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,446,AL0600200,Livingston,3076,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,211,AL0230600,Lockhart,547,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,127,AL0060400,Louisville,585,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,343,AL0450000,Lowndes,10959,9C,"MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,115,AL0050600,Loxley,1448,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,215,AL0240100,Luverne,2692,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,494,AL0670500,Lynn,726,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,348,AL0460000,Macon,10149,8C,"Non-MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,352,AL0470000,Madison,92317,9B,"MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,354,AL0470200,Madison,36218,4,"Cities from 25,000 thru 49,999",0,0,0,0,0,0,0
+2006,Alabama,AL,362,AL0471100,Madison-Morgan County Strategic Counterdrug Team,0,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,165,AL0140200,Maplesville,693,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,363,AL0480000,Marengo,11583,8C,"Non-MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,428,AL0580800,Margaret,1252,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,400,AL0530100,Marion,3459,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,369,AL0490000,Marion,14433,8C,"Non-MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,377,AL0500000,Marshall,44366,8B,"Non-MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,384,AL0500800,Marshall County Drug Enforcement Unit,0,8E,Non-MSA State Police,1,12,0,0,0,1,0
+2006,Alabama,AL,483,AL0650100,McIntosh,241,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,145,AL0100300,McKenzie,629,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,242,AL0280600,Mentone,476,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,56,AL0010700,Midfield,5367,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,230,AL0260600,Midland City,1814,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,255,AL0290600,Millbrook,14939,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,319,AL0400400,Millport,1072,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,484,AL0650200,Millry,609,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,82,AL0020100,Mobile,250152,1C,"Cities from 250,000 thru 499,999",1,12,0,0,0,1,0
+2006,Alabama,AL,81,AL0020000,Mobile,90914,9B,"MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,385,AL0510000,Monroe,15181,8C,"Non-MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,386,AL0510100,Monroeville,6751,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,435,AL0590300,Montevallo,5138,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,94,AL0030000,Montgomery,21686,9C,"MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,95,AL0030100,Montgomery,201937,2,"Cities from 100,000 thru 249,000",1,12,0,0,0,1,0
+2006,Alabama,AL,426,AL0580600,Moody,10861,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,390,AL0520000,Morgan,40689,9B,"MSA counties from 25,000 thru 99,999",0,0,0,0,0,0,0
+2006,Alabama,AL,75,AL0012600,Morris,1885,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,346,AL0450400,Mosses,1084,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,330,AL0420100,Moulton,3306,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,290,AL0360200,Moundville,2208,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,52,AL0010300,Mountain Brook,21009,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,89,AL0020800,Mount Vernon,826,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,195,AL0200300,Muscle Shoals,12636,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,368,AL0480500,Myrtlewood,136,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,228,AL0260400,Napier Field,405,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,480,AL0640800,Nauvoo,286,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,189,AL0190300,New Brockton,1247,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,356,AL0470400,New Hope,2695,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,463,AL0620600,New Site,835,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,229,AL0260500,Newton,1694,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,294,AL0370300,Newville,544,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,334,AL0420500,North Courtland,805,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,467,AL0630200,Northport,21408,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,350,AL0460200,Notasulga,859,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,479,AL0640700,Oakman,957,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,425,AL0580500,Odenville,1214,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,153,AL0110700,Ohatchee,1222,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,135,AL0080100,Oneonta,6596,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,337,AL0430200,Opelika,24019,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,207,AL0230200,Opp,6718,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,121,AL0051200,Orange Beach,5101,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,357,AL0470500,Owens Crossroads,1325,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,151,AL0110500,Oxford,20162,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,225,AL0260100,Ozark,14967,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,478,AL0640600,Parrish,1270,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,438,AL0590600,Pelham,19626,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,421,AL0580100,Pell City,11110,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,171,AL0150300,Pennington,335,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,399,AL0530000,Perry,6481,8D,"Non-MSA counties under 10,000",1,12,0,0,0,1,0
+2006,Alabama,AL,418,AL0570100,Phenix City,29726,4,"Cities from 25,000 thru 49,999",0,0,0,0,0,0,0
+2006,Alabama,AL,275,AL0330200,Phil Campbell,1059,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,402,AL0540000,Pickens,12771,8C,"Non-MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,407,AL0540500,Pickensville,652,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,149,AL0110300,Piedmont,5014,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,409,AL0550000,Pike,13498,8C,"Non-MSA counties from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,231,AL0260700,Pinckard,648,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,488,AL0660200,Pine Hill,931,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,310,AL0390500,Pisgah,708,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,63,AL0011400,Pleasant Grove,10405,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,496,ALDI00300,Poarch Creek Tribal,0,7,"Cities under 2,500",0,11,0,0,0,0,0
+2006,Alabama,AL,241,AL0280500,Powell,968,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,107,AL0040100,Prattville,30315,4,"Cities from 25,000 thru 49,999",1,12,0,0,0,1,0
+2006,Alabama,AL,397,AL0520900,Priceville,2253,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,83,AL0020200,Prichard,28216,4,"Cities from 25,000 thru 49,999",1,12,0,0,0,1,0
+2006,Alabama,AL,423,AL0580300,Ragland,2045,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,265,AL0310500,Rainbow City,8960,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,243,AL0280700,Rainsville,4825,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,185,AL0180200,Ranburne,475,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,413,AL0560000,Randolph,14727,8C,"Non-MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,276,AL0330300,Red Bay,3312,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,210,AL0230500,Red Level,555,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,405,AL0540300,Reform,1875,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,427,AL0580700,Riverside,1765,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,414,AL0560100,Roanoke,6710,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,114,AL0050500,Robertsdale,4723,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,204,AL0220200,Rockford,409,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,326,AL0410600,Rogersville,1197,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,64,AL0011500,Roosevelt City,0,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,417,AL0570000,Russell,21781,9C,"MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,274,AL0330100,Russellville,8873,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,281,AL0340200,Samson,2043,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,86,AL0020500,Saraland,12798,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,268,AL0310800,Sardis City,1935,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,88,AL0020700,Satsuma,6005,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,306,AL0390100,Scottsboro,14974,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,312,AL0390700,Section,770,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,235,AL0270100,Selma,19576,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,193,AL0200100,Sheffield,9311,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,432,AL0590000,Shelby,75217,9B,"MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,351,AL0460600,Shorter,340,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,172,AL0150400,Silas,499,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,116,AL0050700,Silverhill,701,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,481,AL0640900,Sipsey,553,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,314,AL0390900,Skyline,847,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,283,AL0340400,Slocomb,2051,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,138,AL0080400,Snead,824,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,395,AL0520600,Somerville,360,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,267,AL0310700,Southside,7909,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,122,AL0051300,Spanish Fort,5693,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,424,AL0580400,Springville,3082,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,102,AL0031300,State Capitol Police,0,9D,"MSA counties under 10,000",0,0,0,0,0,0,0
+2006,Alabama,AL,420,AL0580000,St. Clair,35839,9B,"MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,429,AL0580900,Steele,1164,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,308,AL0390300,Stevenson,2157,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,324,AL0410400,St. Florian,438,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,316,AL0400100,Sulligent,2051,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,477,AL0640500,Sumiton,2605,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,118,AL0050900,Summerdale,679,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,444,AL0600000,Sumter,8024,8D,"Non-MSA counties under 10,000",0,0,0,0,0,0,0
+2006,Alabama,AL,451,AL0610100,Sylacauga,13073,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,247,AL0281200,Sylvania,1249,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,450,AL0610000,Talladega,38152,8B,"Non-MSA counties from 25,000 thru 99,999",0,0,0,0,0,0,0
+2006,Alabama,AL,452,AL0610200,Talladega,17304,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,456,AL0610600,Talladega College,0,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,457,AL0620000,Tallapoosa,18892,8C,"Non-MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,252,AL0290200,Tallassee,5078,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,57,AL0010800,Tarrant,6752,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,303,AL0380900,Taylor,1961,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,366,AL0480300,Thomaston,378,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,176,AL0160200,Thomasville,4593,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,167,AL0140400,Thorsby,1999,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,331,AL0420200,Town Creek,1220,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,173,AL0150500,Toxey,143,7,"Cities under 2,500",0,0,0,0,1,0,0
+2006,Alabama,AL,74,AL0012500,Trafford,501,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,358,AL0470600,Triana,477,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,396,AL0520700,Trinity,1859,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,410,AL0550100,Troy,14061,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,412,AL0550300,Troy University,0,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,70,AL0012100,Trussville,16912,5,"Cities from 10,000 thru 24,999",1,12,0,0,0,1,0
+2006,Alabama,AL,466,AL0630100,Tuscaloosa,82094,3,"Cities from 50,000 thru 99,000",1,12,0,0,0,1,0
+2006,Alabama,AL,465,AL0630000,Tuscaloosa,64427,9B,"MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,194,AL0200200,Tuscumbia,8244,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,349,AL0460100,Tuskegee,11695,5,"Cities from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,141,AL0090100,Union Springs,3474,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,401,AL0530200,Uniontown,1534,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,73,AL0012400,University of Alabama: Birmingham,0,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,359,AL0470700,University of Alabama: Huntsville,0,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,468,AL0630300,University of Alabama: Tuscaloosa,0,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,443,AL0591100,University of Montevallo,0,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,328,AL0410800,University of North Alabama,0,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,92,AL0021400,University of South Alabama,0,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,449,AL0600500,University of West Alabama,0,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,158,AL0120400,Valley,9081,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,248,AL0281300,Valley Head,645,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,470,AL0630700,Vance,560,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,317,AL0400200,Vernon,2002,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,58,AL0010900,Vestavia Hills,31303,4,"Cities from 25,000 thru 49,999",1,12,0,0,0,1,0
+2006,Alabama,AL,277,AL0330400,Vina,402,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,437,AL0590500,Vincent,1968,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,415,AL0560200,Wadley,654,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,455,AL0610500,Waldo,284,7,"Cities under 2,500",0,0,0,0,1,0,0
+2006,Alabama,AL,472,AL0640000,Walker,44317,9B,"MSA counties from 25,000 thru 99,999",1,12,0,0,0,1,0
+2006,Alabama,AL,302,AL0380800,Wallace Community College: Dothan,0,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,72,AL0012300,Warrior,3064,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,482,AL0650000,Washington,15895,8C,"Non-MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,322,AL0410200,Waterloo,209,7,"Cities under 2,500",0,0,0,0,1,0,0
+2006,Alabama,AL,150,AL0110400,Weaver,2578,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,416,AL0560300,Wedowee,831,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,132,AL0070300,West Blocton,1431,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,375,AL0490600,Weston,0,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,251,AL0290100,Wetumpka,6967,6,"Cities from 2,500 thru 9,999",1,12,0,0,0,1,0
+2006,Alabama,AL,486,AL0660000,Wilcox,9875,8D,"Non-MSA counties under 10,000",1,12,0,0,0,1,0
+2006,Alabama,AL,90,AL0020900,Wilmer,0,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,442,AL0591000,Wilsonville,1758,7,"Cities under 2,500",0,0,0,0,1,1,0
+2006,Alabama,AL,440,AL0590800,Wilton,615,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,371,AL0490200,Winfield,4715,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
+2006,Alabama,AL,489,AL0670000,Winston,18132,8C,"Non-MSA counties from 10,000 thru 24,999",0,0,0,0,0,0,0
+2006,Alabama,AL,133,AL0070400,Woodstock,1021,7,"Cities under 2,500",0,0,0,0,0,0,0
+2006,Alabama,AL,313,AL0390800,Woodville,762,7,"Cities under 2,500",1,12,0,0,0,1,0
+2006,Alabama,AL,445,AL0600100,York,2649,6,"Cities from 2,500 thru 9,999",0,0,0,0,0,0,0
